@@ -26,7 +26,7 @@ Inside your project root folder, create:
 
 ```bash
 mkdir xtts_v2/
-
+put it all the files related to the model
 ## 🧾 Requirements
 
 - **Python 3.10** (recommended)
