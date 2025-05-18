@@ -20,3 +20,13 @@ This is a custom setup for running **XTTS v2** from [Coqui TTS](https://github.c
 ```bash
 git clone https://github.com/rahafAlhallay/XTTS.git 
 cd XTTS
+
+# Create and activate virtual environment
+python -m venv .venv
+source .venv/bin/activate   # On Mac/Linux
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run your script
+python xtts_clone.py
