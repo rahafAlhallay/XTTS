@@ -5,6 +5,27 @@ This is a custom setup for running **XTTS v2** from [Coqui TTS](https://github.c
 > ⚠️ This repo does **not include large files** like models (`xtts_v2/`), or virtual environments.
 
 ---
+## 📦 Manual Model Installation (Important)
+The XTTS v2 model is **not included in this repository** due to its large size. You need to download it separately from Hugging Face.
+
+### 1. **Download the Model**
+
+Go to:  
+👉 [https://huggingface.co/coqui/XTTS-v2 ](https://huggingface.co/coqui/XTTS-v2 )
+
+Click on the **"Files and versions"** tab, and download these files:
+
+- `model.pth`
+- `config.json`
+- `vocab.json`
+- `speaker_xtts.pth`
+
+### 2. **Create a Folder in Your Project**
+
+Inside your project root folder, create:
+
+```bash
+mkdir xtts_v2/
 
 ## 🧾 Requirements
 
